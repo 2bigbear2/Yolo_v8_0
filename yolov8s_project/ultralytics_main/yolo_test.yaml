@@ -1,0 +1,17 @@
+# 数据集配置文件 (通常用于YOLO等目标检测模型)
+# 根目录路径，所有其他路径都是相对于此路径
+path: datasets/test_GP
+
+# 训练集图片路径 (相对path的路径)
+train: images/train
+# 验证集图片路径 (相对path的路径)
+val: images/val
+# 测试集图片路径 (此处为空，表示未设置)
+test:
+
+nc: 2  # 类别数量
+
+# 类别名称字典：将数字索引映射到类别名称
+names:
+  0: "box"
+  1: "earphone"
